@@ -13,3 +13,11 @@ echo "The sum is $sum"
 
 # exercise: ask the user for the width and height and present total
 # number of pixels
+echo "Enter the length"
+read length
+echo "Enter the width"
+read width
+
+area=$(( length*width ))
+
+echo "The area is $area square units"
